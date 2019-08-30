@@ -1,8 +1,8 @@
 def roll_call_dwarves(array)
   counter = 0
   
-  array.collect{||
-    
+  array.collect{|word|
+    "#{counter}. #{word}"
   }
   
 end
