@@ -1,16 +1,10 @@
 def roll_call_dwarves(array)
   
   
-def roll_call_dwarves(array)
-  
-  
 array.each_with_index.map { |x,i|
     puts "#{i+1}. #{x}"  }
   
 end
-  
-end
-
 
 
 def summon_captain_planet# code an argument here
