@@ -1,11 +1,12 @@
 def roll_call_dwarves(array)
-  counter = 0
   
-  array.collect{|word|
-    "#{counter}. #{word}"
-  }
+  
+array.each_with_index.map { |x,i|
+    "#{i}. #{x}"  }
   
 end
+
+
 
 def summon_captain_planet# code an argument here
   # Your code here
