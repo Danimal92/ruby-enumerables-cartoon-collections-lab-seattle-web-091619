@@ -1,8 +1,13 @@
 def roll_call_dwarves(array)
   
   
+def roll_call_dwarves(array)
+  
+  
 array.each_with_index.map { |x,i|
-    "#{i+1}. #{x}"  }
+    puts "#{i+1}. #{x}"  }
+  
+end
   
 end
 
